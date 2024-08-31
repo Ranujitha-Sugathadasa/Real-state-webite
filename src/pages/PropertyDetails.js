@@ -7,7 +7,7 @@ import { housesData } from '../data';
 import { useParams } from 'react-router-dom';
 
 //import icons
-import {BiBed , BiBath , BiArea } from 'react-icons/bi';
+import { BiBed, BiBath, BiArea } from 'react-icons/bi';
 
 //import link
 import { Link } from 'react-router-dom';
@@ -44,15 +44,15 @@ const PropertyDetails = () => {
           </div>
           <div className='flex gap-x-6 text-orange-700 mb-6'>
             <div className='flex gap-x-2 items-center'>
-              <BiBed className='text-2x1'/>
+              <BiBed className='text-2x1' />
               <div>{house.bedrooms}</div>
             </div>
             <div className='flex gap-x-2 items-center'>
-              <BiBath className='text-2x1'/>
+              <BiBath className='text-2x1' />
               <div>{house.bathrooms}</div>
             </div>
             <div className='flex gap-x-2 items-center'>
-              <BiArea className='text-2x1'/>
+              <BiArea className='text-2x1' />
               <div>{house.surface}</div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const PropertyDetails = () => {
         <div className='flex-1 bg-white-100 w-full mb-8 border border-gray-300 rounded-lg px-6 py-8'>
           <div className='flex-items-center gap-x-4 mb-8'>
             <div className='w-20 h-20 p-1 border border-gray-300 rounded-full'>
-              <img src ={house.agent.image} alt=''/>
+              <img src={house.agent.image} alt='' />
             </div>
             <div>
               <div className='font-bold text-lg'>
@@ -70,7 +70,7 @@ const PropertyDetails = () => {
             </div>
           </div>
           {/* form */}
-          <form className='flex flex-col gap-y-4'>
+          {/* <form className='flex flex-col gap-y-4'>
             <input className='border-gray-300 focus:border-violet-700 outLine-none rounded w-full px-4 h-14 text-sm' type='text' placeholder='Name' />
             <input className='border-gray-300 focus:border-violet-700 outLine-none rounded w-full px-4 h-14 text-sm' type='text' placeholder='Email'/>
             <input className='border-gray-300 focus:border-violet-700 outLine-none rounded w-full px-4 h-14 text-sm' type='text' placeholder='Phone'/>
@@ -79,14 +79,14 @@ const PropertyDetails = () => {
               <button className='bg-orange-700 hover:bg-violet-800 text-white rounded p-4 text-sm'>Send Message</button>
               <button className='border border-orange-700 text-orange-700 hover:border-violet-500 hover:text-violet-500 rounded p-4 text-sm w-full transition'>Call</button>
             </div>
-          </form>
+          </form> */}
 
         </div>
       </div>
 
     </div>
   </section>
-  
+
 };
 
 export default PropertyDetails;
