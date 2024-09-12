@@ -69,17 +69,17 @@ const PropertyDetails = () => {
               <Link to="" className='text-orange-700 text-sm'>View Listings</Link>
             </div>
           </div>
-          {/* form */}
-          {/* <form className='flex flex-col gap-y-4'>
+          {form}
+          {<form className='flex flex-col gap-y-4'>
             <input className='border-gray-300 focus:border-violet-700 outLine-none rounded w-full px-4 h-14 text-sm' type='text' placeholder='Name' />
-            <input className='border-gray-300 focus:border-violet-700 outLine-none rounded w-full px-4 h-14 text-sm' type='text' placeholder='Email'/>
-            <input className='border-gray-300 focus:border-violet-700 outLine-none rounded w-full px-4 h-14 text-sm' type='text' placeholder='Phone'/>
+            <input className='border-gray-300 focus:border-violet-700 outLine-none rounded w-full px-4 h-14 text-sm' type='text' placeholder='Email' />
+            <input className='border-gray-300 focus:border-violet-700 outLine-none rounded w-full px-4 h-14 text-sm' type='text' placeholder='Phone' />
             <textarea className='border border-gray-300 focus:border-violet-700 outline-none resize-none rounded w-full p-4 h-36 text-sm text-gray-400' placeholder='Message'></textarea>
             <div className='flex gap-x-2'>
               <button className='bg-orange-700 hover:bg-violet-800 text-white rounded p-4 text-sm'>Send Message</button>
               <button className='border border-orange-700 text-orange-700 hover:border-violet-500 hover:text-violet-500 rounded p-4 text-sm w-full transition'>Call</button>
             </div>
-          </form> */}
+          </form>}
 
         </div>
       </div>
